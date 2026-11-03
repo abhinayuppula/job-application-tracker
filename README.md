@@ -76,6 +76,20 @@ npm run dev
 
 Frontend URL: `http://localhost:5173`
 
+## Screenshots
+
+### 1. Dashboard
+![Dashboard](screenshots/Dashboard.png)
+
+### 2. My Applications
+![My Applications](screenshots/MyApplications.png)
+
+### 3. Add Application – Form
+![Add Application Form](screenshots/AddApplications01.png)
+
+### 4. Add Application – Additional View
+![Add Application Additional View](screenshots/AddApplications02.png)
+
 ## Future Improvements
 
 - User authentication and authorization.
