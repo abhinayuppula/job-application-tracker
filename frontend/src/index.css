@@ -1,0 +1,108 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f7fb;
+    color: #1e293b;
+    min-width: 320px;
+}
+
+#root {
+    min-height: 100vh;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-container {
+    padding: 32px;
+}
+
+.page-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #172033;
+    margin-bottom: 8px;
+}
+
+.page-subtitle {
+    color: #64748b;
+    font-size: 14px;
+    margin-bottom: 28px;
+}
+
+.custom-card {
+    background: #ffffff;
+    border: 1px solid #e8edf4;
+    border-radius: 12px;
+    padding: 22px;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+}
+
+@media (max-width: 768px) {
+    .page-container {
+        padding: 18px;
+    }
+
+    .page-title {
+        font-size: 22px;
+    }
+}
+/* Form improvements */
+.form-control,
+.form-select {
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #dce3ed;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #647bfa;
+    box-shadow: 0 0 0 3px rgba(100, 123, 250, 0.12);
+}
+
+/* Button improvements */
+.btn {
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+/* Table improvements */
+.table th {
+    font-size: 13px;
+    color: #64748b;
+    white-space: nowrap;
+}
+
+.table td {
+    font-size: 14px;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+    .page-container {
+        padding: 16px;
+    }
+
+    .custom-card {
+        padding: 16px;
+    }
+
+    .table {
+        min-width: 1000px;
+    }
+}
